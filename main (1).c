@@ -18,7 +18,7 @@ int main()
    scanf("%d",&b);
    printf("The values of a & b before swapping are: %d %d \n",a,b);
    swap(&a,&b);
-   printf("The values of a & b after swapping are: %d %d",a,b);
+   printf("The values of a & b after swapping are given as %d %d",a,b);
 
     return 0;
 }
