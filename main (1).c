@@ -17,7 +17,7 @@ int main()
    printf("Enter the value of b");
    scanf("%d",&b);
    printf("The values of a & b before swapping are: %d %d \n",a,b);
-   swap(&a,&b);
+   swap(&x,&y);
    printf("The values of a & b after swapping are given as %d %d",a,b);
 
     return 0;
