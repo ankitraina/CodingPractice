@@ -20,11 +20,14 @@ int main()
     scanf("%d",&b);
     printf("Before swapping values \n");
     printf("\n a=%d \n b =%d\n",a,b) ;
+    
     swap(a,b);
     
     
     printf("After swapping values \n");
     printf("\n a=%d \n b =%d",a,b) ;
+    
+    printf("This program shows that when we use call by value technique of parameter passing, there is no change in the actual arguments passes.")
     return 0;
 }
 
